@@ -79,9 +79,9 @@ class MedicalVisualization(QMainWindow):
 
         # UPDATE THESE PATHS to your NIfTI folders
         self.organ_folders = {
-            "Nervous": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/brain",
-            "Cardiovascular": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/heart",
-            "Musculoskeletal": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/bones",
+            "Nervous": "/Users/rahma/Desktop/drivefolders/brain",
+            "Cardiovascular": "/Users/rahma/Desktop/drivefolders/heart",
+            "Musculoskeletal": "/Users/rahma/Desktop/drivefolders/bones",
             "Dental": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/Teeth"
         }
 
@@ -484,51 +484,83 @@ class MedicalVisualization(QMainWindow):
         layout.addWidget(self.status_label)
 
         layout.addSpacing(20)
-
-        # --- CLIPPING PLANE CONTROLS ---
+       # --- CLIPPING PLANE CONTROLS ---
         self.clipping_controls = self.create_collapsible_group("Clipping Planes")
         clipping_layout = QVBoxLayout()
 
-        # Sagittal
+       # Define black slider style
+        slider_style = """
+    QSlider::groove:horizontal {
+        height: 4px;
+        background: #e8e8e8;
+        border-radius: 2px;
+    }
+    QSlider::handle:horizontal {
+        background: #1a1a1a;
+        width: 16px;
+        height: 16px;
+        margin: -6px 0;
+        border-radius: 8px;
+    }
+    QSlider::handle:horizontal:hover {
+        background: #333333;
+    }
+"""
+
+       # Sagittal
         sag_label = QLabel("Sagittal (Left/Right)")
+        sag_label.setStyleSheet("color: #666666; font-weight: 500;")
         clipping_layout.addWidget(sag_label)
         self.sagittal_check = QCheckBox("Enable")
         self.sagittal_slider = QSlider(Qt.Horizontal)
         self.sagittal_slider.setRange(0, 100)
         self.sagittal_slider.setValue(50)
+        self.sagittal_slider.setStyleSheet(slider_style)
         self.sagittal_label = QLabel("50%")
+        self.sagittal_label.setStyleSheet("color: #999999; font-size: 11px;")
         self.sagittal_check.toggled.connect(self.update_clipping)
         self.sagittal_slider.valueChanged.connect(
-            lambda v: (self.sagittal_label.setText(f"{v}%"), self.update_clipping()))
+    lambda v: (self.sagittal_label.setText(f"{v}%"), self.update_clipping()))
         clipping_layout.addWidget(self.sagittal_check)
         clipping_layout.addWidget(self.sagittal_slider)
         clipping_layout.addWidget(self.sagittal_label)
 
-        # Coronal
+        clipping_layout.addSpacing(10)
+
+       # Coronal
         cor_label = QLabel("Coronal (Front/Back)")
+        cor_label.setStyleSheet("color: #666666; font-weight: 500;")
         clipping_layout.addWidget(cor_label)
         self.coronal_check = QCheckBox("Enable")
         self.coronal_slider = QSlider(Qt.Horizontal)
         self.coronal_slider.setRange(0, 100)
         self.coronal_slider.setValue(50)
+        self.coronal_slider.setStyleSheet(slider_style)
         self.coronal_label = QLabel("50%")
+        self.coronal_label.setStyleSheet("color: #999999; font-size: 11px;")
         self.coronal_check.toggled.connect(self.update_clipping)
         self.coronal_slider.valueChanged.connect(
-            lambda v: (self.coronal_label.setText(f"{v}%"), self.update_clipping()))
+    lambda v: (self.coronal_label.setText(f"{v}%"), self.update_clipping()))
         clipping_layout.addWidget(self.coronal_check)
         clipping_layout.addWidget(self.coronal_slider)
         clipping_layout.addWidget(self.coronal_label)
 
-        # Axial
+        clipping_layout.addSpacing(10)
+
+       # Axial
         ax_label = QLabel("Axial (Top/Bottom)")
+        ax_label.setStyleSheet("color: #666666; font-weight: 500;")
         clipping_layout.addWidget(ax_label)
         self.axial_check = QCheckBox("Enable")
         self.axial_slider = QSlider(Qt.Horizontal)
         self.axial_slider.setRange(0, 100)
         self.axial_slider.setValue(50)
+        self.axial_slider.setStyleSheet(slider_style)
         self.axial_label = QLabel("50%")
+        self.axial_label.setStyleSheet("color: #999999; font-size: 11px;")
         self.axial_check.toggled.connect(self.update_clipping)
-        self.axial_slider.valueChanged.connect(lambda v: (self.axial_label.setText(f"{v}%"), self.update_clipping()))
+        self.axial_slider.valueChanged.connect(
+    lambda v: (self.axial_label.setText(f"{v}%"), self.update_clipping()))
         clipping_layout.addWidget(self.axial_check)
         clipping_layout.addWidget(self.axial_slider)
         clipping_layout.addWidget(self.axial_label)
@@ -536,7 +568,7 @@ class MedicalVisualization(QMainWindow):
         self.clipping_controls.content_widget.setLayout(clipping_layout)
         layout.addWidget(self.clipping_controls)
         self.clipping_controls.setVisible(False)  # Hide by default
-
+       
         # Buttons
         reset_btn = self.create_minimal_button("Reset View")
         reset_btn.clicked.connect(self.reset_camera)
@@ -544,14 +576,14 @@ class MedicalVisualization(QMainWindow):
 
         # Animation button (only for Cardiovascular system)
         self.animation_btn = self.create_minimal_button("Show Animation")
-        # --- Add Clipping Planes toggle button ---
-        self.clipping_toggle_btn = self.create_minimal_button("🩻 Show Clipping Planes")
-        self.clipping_toggle_btn.clicked.connect(self.toggle_clipping_planes_ui)
-        layout.addWidget(self.clipping_toggle_btn)
-
         self.animation_btn.clicked.connect(self.toggle_animation)
         self.animation_btn.hide()
         layout.addWidget(self.animation_btn)
+
+         # --- Add Clipping Planes toggle button ---
+        self.clipping_toggle_btn = self.create_minimal_button("Show Clipping Planes")
+        self.clipping_toggle_btn.clicked.connect(self.toggle_clipping_planes_ui)
+        layout.addWidget(self.clipping_toggle_btn)
 
         # Progress bar
         self.progress_bar = QProgressBar()
@@ -1833,11 +1865,11 @@ class MedicalVisualization(QMainWindow):
         if self.clipping_controls.isVisible():
             self.clipping_controls.setVisible(False)
             self.disable_clipping()
-            self.clipping_toggle_btn.setText("🩻 Show Clipping Planes")
+            self.clipping_toggle_btn.setText("Show Clipping Planes")
         else:
             self.enable_clipping()
             self.clipping_controls.setVisible(True)
-            self.clipping_toggle_btn.setText("❌ Hide Clipping Planes")
+            self.clipping_toggle_btn.setText("Hide Clipping Planes")
 
     def calculate_bounds(self):
         """Calculate overall bounds of all current actors"""
