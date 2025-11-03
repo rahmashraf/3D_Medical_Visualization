@@ -79,9 +79,9 @@ class MedicalVisualization(QMainWindow):
 
         # UPDATE THESE PATHS to your NIfTI folders
         self.organ_folders = {
-            "Nervous": "/Users/rahma/Desktop/drivefolders/brain",
-            "Cardiovascular": "/Users/rahma/Desktop/drivefolders/heart",
-            "Musculoskeletal": "/Users/rahma/Desktop/drivefolders/bones",
+            "Nervous": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/brain",
+            "Cardiovascular": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/heart",
+            "Musculoskeletal": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/bones",
             "Dental": "C:/Users/Youssef/Desktop/Mpr visualization/Dataset/Teeth"
         }
 
