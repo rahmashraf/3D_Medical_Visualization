@@ -20,6 +20,14 @@ Core Functionality
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 ___
 - **Surface Rendering:**
+  <h3 align="center">Project Images</h3>
+
+<div style="display: flex; overflow-x: auto; gap: 10px; justify-content: center;">
+  <img src="assets/Musculoskeletal.jpeg" width="250" />
+  <img src="assets/heart.jpeg" width="250" />
+  <img src="assets/brain.jpeg" width="250" />
+  <img src="assets/teeth.jpeg" width="250" />
+</div>
 
 ___
 - **MRI Viewer (Curved MPR)**
