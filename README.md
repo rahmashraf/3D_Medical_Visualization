@@ -48,30 +48,13 @@ Dental arch visualization
 
 ![FocusNavigation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/focusNavigation.gif)
 
-
-- Automatic NIfTI Processing:
-
-Batch loading of .nii and .nii.gz files
-Marching Cubes surface extraction
-Smart color coding by anatomical structure
-
-
-- Heart Animation:
+### • **Heart Animation:**
 
 Real-time cardiac cycle visualization
 STL frame sequence support
 30 FPS playback with parallel loading
 
-
-- Camera Fly-Through:
-
-Interactive path definition by clicking
-Smooth interpolated camera movement
-Adjustable speed control
-Loop playback
-
-
-- Clipping Planes:
+### • **Clipping Planes:
 
 Three anatomical planes (Sagittal, Coronal, Axial)
 Real-time cross-sectional views
@@ -79,6 +62,12 @@ Visual plane indicators (red, green, blue)
 Independent plane control with sliders
 
 
+### • **Camera Fly-Through:
+
+Interactive path definition by clicking
+Smooth interpolated camera movement
+Adjustable speed control
+Loop playback
 
 ### Advanced Features
 
