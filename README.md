@@ -47,6 +47,7 @@ Dental arch visualization
 ### • **Focus navigation:**
 
 ![FocusNavigation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/focusNavigation.gif)
+___
 
 ### • **Heart Animation:**
 
@@ -55,6 +56,8 @@ STL frame sequence support
 30 FPS playback with parallel loading
 ![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/animation.gif)
 
+---
+
 ### • **Clipping Planes:**
 
 Three anatomical planes (Sagittal, Coronal, Axial)
@@ -62,7 +65,8 @@ Real-time cross-sectional views
 Visual plane indicators (red, green, blue)
 Independent plane control with sliders
 
-
+![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/)
+___
 ### • **Camera Fly-Through:**
 
 Interactive path definition by clicking
