@@ -18,10 +18,10 @@ Core Functionality
 - **Multi-System Support:**
 
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
-
+___
 - **Surface Rendering:**
 
-
+___
 - **MRI Viewer (Curved MPR)**
  
 **Curved MPR View**: Custom curved reconstructions
