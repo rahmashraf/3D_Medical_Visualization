@@ -123,6 +123,7 @@ ___
 The following files and folders are essential for the **Medical Visualization** application to run correctly.  
 If any of them are missing, the program may fail to start or show errors.  
 Please make sure your project structure matches the following:
+```
 medical-visualization/
 │
 ├── medical_visualization.py    # Main 3D viewer application
@@ -145,7 +146,7 @@ medical-visualization/
 │   └── tooth_icon.png
 │
 └── ~/.medical_viz_cache/       # Auto-generated cache
-
+```
 
 
 
