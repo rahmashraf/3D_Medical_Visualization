@@ -22,12 +22,13 @@ ___
 - **Surface Rendering:**
   <h3 align="center">Project Images</h3>
 
-<div style="display: flex; overflow-x: auto; gap: 10px; justify-content: center;">
+<p align="center">
   <img src="assets/Musculoskeletal.jpeg" width="250" />
   <img src="assets/heart.jpeg" width="250" />
+  <br>
   <img src="assets/brain.jpeg" width="250" />
   <img src="assets/teeth.jpeg" width="250" />
-</div>
+</p>
 
 ___
 - **MRI Viewer (Curved MPR)**
