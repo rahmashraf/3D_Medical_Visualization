@@ -22,7 +22,7 @@ Core Functionality
 - **Surface Rendering:**
 
 
-### MRI Viewer (mri_viewer.py)
+### MRI Viewer (Curved MPR)
 - Core Views
 
 Axial View (X-Y plane): Top-down brain slices
