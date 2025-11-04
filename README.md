@@ -54,7 +54,7 @@ Real-time cardiac cycle visualization
 STL frame sequence support
 30 FPS playback with parallel loading
 
-### • **Clipping Planes:
+### • **Clipping Planes:**
 
 Three anatomical planes (Sagittal, Coronal, Axial)
 Real-time cross-sectional views
@@ -62,7 +62,7 @@ Visual plane indicators (red, green, blue)
 Independent plane control with sliders
 
 
-### • **Camera Fly-Through:
+### • **Camera Fly-Through:**
 
 Interactive path definition by clicking
 Smooth interpolated camera movement
@@ -100,6 +100,16 @@ Reset camera view
 Multi-light setup for depth perception
 Phong shading with specular highlights
 Professional medical visualization quality
+___
+
+# Installation and Usage
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/rahmashraf/mpr-viewer-ai.git
+   ```
+
 
 
 
