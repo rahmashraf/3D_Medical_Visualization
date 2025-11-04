@@ -148,5 +148,9 @@ medical-visualization/
 └── ~/.medical_viz_cache/       # Auto-generated cache
 ```
 
+3. Run the application:
 
+   ```bash
+    medical_visualization.py
+   ```
 
