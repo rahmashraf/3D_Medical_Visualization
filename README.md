@@ -103,22 +103,8 @@ Professional medical visualization quality
 
 
 
-### MRI Viewer (mri_viewer.py)
-- Core Views
 
-Axial View (X-Y plane): Top-down brain slices
-Coronal View (X-Z plane): Front-to-back slices
-Sagittal View (Y-Z plane): Side view slices
-Curved MPR View: Custom curved reconstructions
 
-- MPR Features
-
-Interactive Crosshairs: Synchronized across all views
-Curved Planar MPR:
-
-Click-to-define curved path on axial view
-Z-slicing along the curve
-Real-time interpolation
 
 
 
