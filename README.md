@@ -12,7 +12,7 @@ This comprehensive medical visualization system provides two main components:
 ---
 
 # Features
-3D Visualization (medical_visualization.py)
+3D Visualization 
 Core Functionality
 
 - **Multi-System Support:**
