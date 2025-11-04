@@ -110,9 +110,37 @@ ___
    ```bash
    git clone https://github.com/rahmashraf/3D_Medical_Visualization.git
    ```
+2. Install all required libraries, run:
 
-
-
+   ```bash
+  pip install vtk PyQt5 numpy nibabel scikit-image scipy SimpleITK matplotlib 
+   ```
+##  Project Structure
+The following files and folders are essential for the **Medical Visualization** application to run correctly.  
+If any of them are missing, the program may fail to start or show errors.  
+Please make sure your project structure matches the following:
+medical-visualization/
+│
+├── medical_visualization.py    # Main 3D viewer application
+├── mri_viewer.py               # MPR viewer component
+├── camera_flythrough.py        # Camera animation utilities
+├── requirements.txt            # Python dependencies
+├── README.md                   # This file
+│
+├── Dataset/                    # Data folder (not in repo)
+│   ├── brain/                  # NIfTI brain files
+│   ├── heart/                  # NIfTI heart files
+│   ├── bones/                  # NIfTI bone files
+│   ├── Teeth/                  # NIfTI dental files
+│   └── heartmv/                # STL animation frames
+│
+├── Downloads/                  # Icon files (optional)
+│   ├── brain_icon.png
+│   ├── heart_icon.png
+│   ├── bone_icon.png
+│   └── tooth_icon.png
+│
+└── ~/.medical_viz_cache/       # Auto-generated cache
 
 
 
