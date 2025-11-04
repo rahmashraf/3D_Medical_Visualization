@@ -17,10 +17,6 @@ Core Functionality
 
 - **Multi-System Support:**
 
--Nervous System (Brain)
--Cardiovascular System (Heart)
--Musculoskeletal System (Bones)
--Dental System (Teeth)
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 
 - Automatic NIfTI Processing:
