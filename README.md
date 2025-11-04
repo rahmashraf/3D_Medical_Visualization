@@ -22,8 +22,27 @@ Core Functionality
 - **Surface Rendering:**
 
 
-- **Curved MPR:**
+### MRI Viewer (mri_viewer.py)
+- Core Views
 
+Axial View (X-Y plane): Top-down brain slices
+Coronal View (X-Z plane): Front-to-back slices
+Sagittal View (Y-Z plane): Side view slices
+Curved MPR View: Custom curved reconstructions
+
+- **MPR Features**
+
+Interactive Crosshairs: Synchronized across all views
+Curved Planar MPR:
+
+Click-to-define curved path on axial view
+Z-slicing along the curve
+Real-time interpolation
+- Display Options:
+
+7 colormap choices (gray, viridis, plasma, etc.)
+Aspect ratio correction
+Real-time voxel value display
 Full-height curved reconstruction
 Dental arch visualization
 
@@ -112,16 +131,4 @@ Z-slicing along the curve
 Real-time interpolation
 
 
-- Advanced Controls:
 
-Mouse wheel scrolling for slice navigation
-Ctrl + wheel for zooming
-Arrow keys for panning
-Playback mode for quick review
-
-
-- Display Options:
-
-7 colormap choices (gray, viridis, plasma, etc.)
-Aspect ratio correction
-Real-time voxel value display
