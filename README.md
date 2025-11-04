@@ -7,7 +7,7 @@ ___
 This comprehensive medical visualization system provides two main components:
 
 - 3D Anatomical Viewer: Interactive 3D visualization of anatomical structures with advanced features like clipping planes, camera fly-through, and animation support.
-- MRI/MPR Viewer: Multi-planar reconstruction viewer with support for axial, coronal, sagittal views, and curved/panoramic MPR.
+-  MRI/MPR Viewer: Multi-planar reconstruction viewer with support for axial, coronal, sagittal views, and curved/panoramic MPR.
   
 ---
 
@@ -15,13 +15,13 @@ This comprehensive medical visualization system provides two main components:
 3D Visualization (medical_visualization.py)
 Core Functionality
 
-- Multi-System Support:
+- **Multi-System Support:**
 
-Nervous System (Brain)
-Cardiovascular System (Heart)
-Musculoskeletal System (Bones)
-Dental System (Teeth)
-![interface](https://github.com/rahmashraf/3D_Medical_Visualization/edit/main/README.md#:~:text=main.png)
+-Nervous System (Brain)
+-Cardiovascular System (Heart)
+-Musculoskeletal System (Bones)
+-Dental System (Teeth)
+![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 
 - Automatic NIfTI Processing:
 
