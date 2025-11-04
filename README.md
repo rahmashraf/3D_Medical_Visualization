@@ -53,6 +53,7 @@ Dental arch visualization
 Real-time cardiac cycle visualization
 STL frame sequence support
 30 FPS playback with parallel loading
+![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/animation.gif)
 
 ### • **Clipping Planes:**
 
