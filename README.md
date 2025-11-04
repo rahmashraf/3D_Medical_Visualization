@@ -117,7 +117,7 @@ ___
 2. Install all required libraries, run:
 
    ```bash
-  pip install vtk PyQt5 numpy nibabel scikit-image scipy SimpleITK matplotlib 
+   pip install vtk PyQt5 numpy nibabel scikit-image scipy SimpleITK matplotlib
    ```
 ##  Project Structure
 The following files and folders are essential for the **Medical Visualization** application to run correctly.  
