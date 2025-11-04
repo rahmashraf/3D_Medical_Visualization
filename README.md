@@ -19,8 +19,10 @@ Core Functionality
 
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 
+- **Surface Rendering:**
 
-- Curved MPR:
+
+- **Curved MPR:**
 
 Full-height curved reconstruction
 Dental arch visualization
