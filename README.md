@@ -65,7 +65,7 @@ Real-time cross-sectional views
 Visual plane indicators (red, green, blue)
 Independent plane control with sliders
 
-![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/)
+![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/clippingplanes.gif)
 ___
 ### • **Camera Fly-Through:**
 
