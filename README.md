@@ -15,11 +15,11 @@ This comprehensive medical visualization system provides two main components:
 3D Visualization 
 Core Functionality
 
-- **Multi-System Support:**
+### • **Multi-System Support:**
 
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 ___
-- **Surface Rendering:**
+### • **Surface Rendering:**
 
 <p align="center">
   <img src="assets/Musculoskeletal.jpeg" width="250" />
@@ -30,7 +30,7 @@ ___
 </p>
 
 ___
-- **MRI Viewer (Curved MPR)**
+### • **MRI Viewer (Curved MPR)**
  
 **Curved MPR View**: Custom curved reconstructions
 
@@ -44,7 +44,7 @@ Dental arch visualization
 ![CurvedMpr](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/curvedmpr.gif)
 
 ---
-- Focus navigation:
+### • **Focus navigation:**
 
 ![FocusNavigation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/focusNavigation.gif)
 
