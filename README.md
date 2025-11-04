@@ -108,7 +108,7 @@ ___
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/rahmashraf/mpr-viewer-ai.git
+   git clone https://github.com/rahmashraf/3D_Medical_Visualization.git
    ```
 
 
