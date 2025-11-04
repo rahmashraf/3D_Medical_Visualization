@@ -28,9 +28,9 @@ Core Functionality
 Axial View (X-Y plane): Top-down brain slices
 Coronal View (X-Z plane): Front-to-back slices
 Sagittal View (Y-Z plane): Side view slices
-Curved MPR View: Custom curved reconstructions
+**Curved MPR View**: Custom curved reconstructions
 
-- **MPR Features**
+- MPR Features
 
 Interactive Crosshairs: Synchronized across all views
 Curved Planar MPR:
