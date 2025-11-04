@@ -20,7 +20,6 @@ Core Functionality
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 ___
 - **Surface Rendering:**
-  <h3 align="center">Project Images</h3>
 
 <p align="center">
   <img src="assets/Musculoskeletal.jpeg" width="250" />
@@ -43,6 +42,12 @@ Full-height curved reconstruction
 Dental arch visualization
 
 ![CurvedMpr](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/curvedmpr.gif)
+
+---
+- Focus navigation:
+
+![FocusNavigation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/focusNavigation.gif)
+
 
 - Automatic NIfTI Processing:
 
