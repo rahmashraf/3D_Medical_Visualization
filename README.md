@@ -54,7 +54,7 @@ Independent plane control with sliders
 
 
 
-## Advanced Features
+### Advanced Features
 
 - Smart Caching System:
 
@@ -80,7 +80,7 @@ Focus mode (isolate specific parts)
 Reset camera view
 
 
--� Cinematic Lighting:
+- Cinematic Lighting:
 
 Multi-light setup for depth perception
 Phong shading with specular highlights
@@ -88,7 +88,7 @@ Professional medical visualization quality
 
 
 
-## MRI Viewer (mri_viewer.py)
+### MRI Viewer (mri_viewer.py)
 - Core Views
 
 Axial View (X-Y plane): Top-down brain slices
