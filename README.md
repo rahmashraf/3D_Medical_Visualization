@@ -128,6 +128,7 @@ medical-visualization/
 ├── medical_visualization.py    # Main 3D viewer application
 ├── mri_viewer.py               # MPR viewer component
 ├── camera_flythrough.py        # Camera animation utilities
+├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
 │
 ├── Dataset/                    # Data folder (not in repo)
@@ -144,8 +145,6 @@ medical-visualization/
 │   └── tooth_icon.png
 │
 └── ~/.medical_viz_cache/       # Auto-generated cache
-
-
 
 
 
