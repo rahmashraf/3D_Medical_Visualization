@@ -19,6 +19,14 @@ Core Functionality
 
 ![interface](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/main.png)
 
+
+- Curved MPR:
+
+Full-height curved reconstruction
+Dental arch visualization
+
+![CurvedMpr](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/curvedmpr.gif)
+
 - Automatic NIfTI Processing:
 
 Batch loading of .nii and .nii.gz files
@@ -100,13 +108,6 @@ Curved Planar MPR:
 Click-to-define curved path on axial view
 Z-slicing along the curve
 Real-time interpolation
-
-
-- Panoramic MPR:
-
-Full-height curved reconstruction
-Dental arch visualization
-Spinal column views
 
 
 - Advanced Controls:
