@@ -12,7 +12,7 @@ This comprehensive medical visualization system provides two main components:
 ---
 
 # Features
-- **The following demonstration shows this feature applied to a single organ for illustration purposes; however, the same functionality is fully applicable to all anatomical structures in the system.**
+- **The following demonstration shows this feature applied to a single organ for illustration purposes; however, the same functionalities are fully applicable to all anatomical structures in the system.**
 ---
 ### • **Multi-System Support:**
 
