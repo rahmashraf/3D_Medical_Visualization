@@ -39,11 +39,11 @@ Z-slicing along the curve
 Real-time interpolation
 Display Options:
 Full-height curved reconstruction
-####Dental arch visualization
+• Dental arch visualization
 
 ![CurvedMpr](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/curvedmpr.gif)
 
-####This curved MPR approach isn’t limited to the dental arch — it can adapt to any curved anatomical region, providing detailed cross-sectional visualization along complex surfaces.
+• This curved MPR approach isn’t limited to the dental arch — it can adapt to any curved anatomical region, providing detailed cross-sectional visualization along complex surfaces.
 
 ![CurvedMpr](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/CMPR.gif)
 
