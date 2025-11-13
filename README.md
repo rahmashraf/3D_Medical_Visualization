@@ -4,7 +4,6 @@
 ___
 
 # Overview
-- **The following demonstration shows this feature applied to a single organ for illustration purposes; however, the same functionality is fully applicable to all anatomical structures in the system.**
 This comprehensive medical visualization system provides two main components:
 
 - 3D Anatomical Viewer: Interactive 3D visualization of anatomical structures with advanced features like clipping planes, camera fly-through, and animation support.
@@ -13,8 +12,7 @@ This comprehensive medical visualization system provides two main components:
 ---
 
 # Features
-3D Visualization 
-Core Functionality
+- **The following demonstration shows this feature applied to a single organ for illustration purposes; however, the same functionality is fully applicable to all anatomical structures in the system.**
 
 ### • **Multi-System Support:**
 
