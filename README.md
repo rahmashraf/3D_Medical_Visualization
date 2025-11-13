@@ -139,14 +139,14 @@ medical-visualization/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
 │
-├── Dataset/                    # Data folder (not in repo)
+├── Dataset/                    # Data folder
 │   ├── brain/                  # NIfTI brain files
 │   ├── heart/                  # NIfTI heart files
 │   ├── bones/                  # NIfTI bone files
 │   ├── Teeth/                  # NIfTI dental files
 │   └── heartmv/                # STL animation frames
 │
-├── Downloads/                  # Icon files (optional)
+├── Icons/                      # Icon files
 │   ├── brain_icon.png
 │   ├── heart_icon.png
 │   ├── bone_icon.png
