@@ -76,6 +76,8 @@ Interactive path definition by clicking
 Smooth interpolated camera movement
 Adjustable speed control
 Loop playback
+-**This fly-through result is an initial version and can be further refined to achieve higher visual quality.**
+
 ![FlyThrough](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/FlyThrough.gif)
 
 ---
