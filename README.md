@@ -43,6 +43,9 @@ Dental arch visualization
 
 ![CurvedMpr](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/curvedmpr.gif)
 
+This curved MPR approach isn’t limited to the dental arch — it can adapt to any curved anatomical region, providing detailed cross-sectional visualization along complex surfaces.
+
+![CMPR](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/curvedmpr.gif)
 ---
 ### • **Focus navigation:**
 
