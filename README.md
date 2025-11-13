@@ -52,6 +52,16 @@ Full-height curved reconstruction
 ![FocusNavigation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/focusNavigation.gif)
 ___
 
+### • **Clipping Planes:**
+
+Three anatomical planes (Sagittal, Coronal, Axial)
+Real-time cross-sectional views
+Visual plane indicators (red, green, blue)
+Independent plane control with sliders
+
+![ClippingPlanes](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/clippingplanes.gif)
+___
+
 ### • **Heart Animation:**
 
 Real-time cardiac cycle visualization
@@ -60,23 +70,15 @@ STL frame sequence support
 ![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/animation.gif)
 
 ---
-
-### • **Clipping Planes:**
-
-Three anatomical planes (Sagittal, Coronal, Axial)
-Real-time cross-sectional views
-Visual plane indicators (red, green, blue)
-Independent plane control with sliders
-
-![Animation](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/clippingplanes.gif)
-___
 ### • **Camera Fly-Through:**
 
 Interactive path definition by clicking
 Smooth interpolated camera movement
 Adjustable speed control
 Loop playback
+![FlyThrough](https://github.com/rahmashraf/3D_Medical_Visualization/blob/main/assets/FlyThrough.gif)
 
+---
 ### Advanced Features
 
 - Smart Caching System:
